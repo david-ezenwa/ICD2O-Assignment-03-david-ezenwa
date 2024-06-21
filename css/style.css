@@ -1,4 +1,95 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: David.E
+* Created on: Mar 2024
 * This file contains the CSS for index.html
 */
+
+body {
+  background-color: rgb(78, 83, 87);
+  color: rgb(194, 199, 206);
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(36, 37, 38);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 300px;
+  border-radius: 8px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+button {
+  margin-top: 10px;
+  background-color: rgb(78, 83, 87);
+  color: rgb(254, 254, 255);
+  border: none;
+  padding: 10px 20px;
+  font-size: larger;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(100, 105, 110);
+}
+
+#result {
+  margin-top: 20px;
+  color: rgb(254, 254, 255);
+  font-size: larger;
+}
+
+.mdl-layout__header-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
+}
+
+.mdl-textfield__error {
+  color: rgb(255, 255, 255);
+}
+
+.page-content {
+  color: rgb(194, 199, 206);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: x-large;
+}
+
+.page-content-answer {
+  color: rgb(254, 254, 255);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: larger;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0 0 10px 10px;
+  width: 700px;
+}
