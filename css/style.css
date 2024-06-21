@@ -85,11 +85,3 @@ button:hover {
   font-family: Helvetica, Arial, sans-serif;
   font-size: larger;
 }
-
-img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 0 0 10px 10px;
-  width: 700px;
-}
